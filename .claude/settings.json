@@ -13,6 +13,18 @@
           }
         ]
       }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "args": ["${CLAUDE_PROJECT_DIR}/.claude/hooks/adhd-opt-out-tracker.mjs"],
+            "timeout": 5
+          }
+        ]
+      }
     ]
   }
 }
